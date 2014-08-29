@@ -1,0 +1,4 @@
+pygments: true
+baseurl: /
+permalink: /blog/:title
+timezone: America/Minneapolis
