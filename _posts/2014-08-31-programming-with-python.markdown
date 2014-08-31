@@ -1,5 +1,8 @@
 ---
+layout: post
+active: blog
 title: Programming With Python
+date: 2014-08-30
 ---
 
 
