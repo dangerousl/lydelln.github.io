@@ -30,21 +30,23 @@ Say we want to write a program that asks a user to enter two integers and print 
 
 So, in Java, that would mean something like this:
 
-```java
-import java.util.Scanner
+{% highlight java linenos %}
+    import java.util.Scanner
 
-public class twoIntegers {
+    public class twoIntegers {
 
-  public static void main(String[] args){
-    Scanner s = new Scanner(System.in);
-    System.out.println("Please enter your favorite Integer:")
-    int x = s.nextInt();
-    System.out.println("Now, why not enter your least favorite Integer:")
-    int y = s.nextInt();  
-    System.out.println("You entered " + x + " " + y + ",");
-  }
-}
-```
+      public static void main(String[] args){
+          Scanner s = new Scanner(System.in);
+          System.out.println("Please enter your favorite Integer:");
+          int x = s.nextInt();
+          System.out.println("Now, why not enter your least favorite Integer:");
+          int y = s.nextInt();  
+          System.out.println("You entered " + x + " " + y + ",");
+        }
+      }
+      
+{% endhighlight %}
+
 **Great!**
 We had to import a Scanner, set it up in the main, and use it to set our ints. Not too bad!
 
