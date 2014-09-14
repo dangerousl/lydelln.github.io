@@ -18,7 +18,8 @@ So there it is, my education requires that I learn Python. I'm not mad, this is 
 
 *Normally* I don't code in any sort of scripting language,(though I've been actively pursuing ruby, and to a lesser extent Javascript) and so I periodically get lost on the little things someone a bit more experienced than I would probably not have too much trouble with.
 
-I've been spending a lot of time in Objective-C lately, and I *want* to be typing all these extra characters. My mind wants to put `int`, `bool`, and `float`, before the variable name. You simply don't really need to do this all that often in Python, I've been lead to understand from the first couple attempts I've made. This is true for many of the scripting languages, but you don't need to explicitly define your variables like you do in C/C++, Java, etc. It's enough to say `x = 4`, or `myString = "This is my String, yo."`
+I've been spending a lot of time in Objective-C lately, and I *want* to be typing all these extra characters. My mind wants to put `int`, `bool`, and `float`, before the variable name. You simply don't really need to do this all that often in Python, I've been lead to understand from the first couple attempts I've made. This is true for many of the scripting languages, but you don't need to explicitly define your variables like you do in C/C++, Java, etc.
+It's enough to say `x = 4`, or `myString = "This is my String, yo."`
 
 Syntactically, it makes sense to read. Maybe not at first, as I've had my nose deep down in the Obj-C/C++ trenches for awhile and it's weird to change like this, but after a few minutes it's simple.
 
@@ -44,20 +45,25 @@ So, in Java, that would mean something like this:
           System.out.println("You entered " + x + " " + y + ",");
         }
       }
-      
+
 {% endhighlight %}
 
 **Great!**
+
 We had to import a Scanner, set it up in the main, and use it to set our ints. Not too bad!
 
 So now let's look at what I've cooked up for a Python(3.x) implementation:
 
-```python
-x = int(input("Enter most favorite integer:"))
-y = int(input("Enter least favorite integer:"))
-print("You entered " + str(x) + " " + str(y) + ".")
-```
+{% highlight python linenos %}
+
+    x = int(input("Enter most favorite integer:"))
+    y = int(input("Enter least favorite integer:"))
+    print("You entered " + str(x) + " " + str(y) + ".")
+
+{% endhighlight %}
+
 **Did I miss something...?**
+
 Nope! But I lied. We *did* have to cast the user input as an int to get this to work properly (and then recast as a string to print all at once), but there it is - in all it's glory.
 
 So, 12 lines of code for Java (which you could cut down by 2 or 3 lines, I suppose...) and *3* for Python. Yay, scripting!
