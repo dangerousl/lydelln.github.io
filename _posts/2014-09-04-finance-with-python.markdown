@@ -28,7 +28,7 @@ Sounds easy enough, once you get past the syntax. Well let's try this on our own
 #### Calculating...
 
 So I've whipped up an easy to understand solution for Python.
-You can read along here, and if you want you can pop the code into your IDLE or terminal from <a href"https://github.com/lydelln/python-projects">here.</a> Look for the PMT folder.
+You can read along here, and if you want you can pop the code into your IDLE or terminal from <a href="https://github.com/lydelln/python-projects">here.</a> Look for the PMT folder.
 
 The first thing I'll be doing is defining a function with which to use to calculate the PMT.
 
