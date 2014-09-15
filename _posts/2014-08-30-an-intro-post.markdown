@@ -20,12 +20,9 @@ I'm looking forward to blogging my experience learning and implement a number of
 
 
 On my list of things to try blogging with:
+
 Python (For school! For Fun?)
-
 JavaScript
-
 Ruby
-
 Obj-C
-
 SDL using C/C++
